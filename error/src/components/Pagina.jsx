@@ -22,8 +22,8 @@ export default function Pagina() {
       <div className={styles.err_back}>
         <video className={styles.video} src={video} muted autoPlay></video>
         <div className={styles.err}>
-          <p>4</p>
-          <p>4</p>
+          <p className={styles.quatro1}>4</p>
+          <p className={styles.quatro2}>4</p>
         </div>
       </div>
     </div>
