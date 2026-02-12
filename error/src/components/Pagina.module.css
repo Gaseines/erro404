@@ -126,26 +126,26 @@
     
     transform: translateY(-45px);
     display: inline-flex;
-    animation: move .5s forwards ease-in-out;
+    animation: move 1.8s forwards;
 }
 
 .av1_container span:nth-child(1){
-    animation-delay: 0.1s;
-}
-.av1_container span:nth-child(2){
     animation-delay: 0.2s;
 }
-.av1_container span:nth-child(3){
-    animation-delay: 0.3s;
-}
-.av1_container span:nth-child(4){
+.av1_container span:nth-child(2){
     animation-delay: 0.4s;
 }
+.av1_container span:nth-child(3){
+    animation-delay: 0.6s;
+}
+.av1_container span:nth-child(4){
+    animation-delay: 0.8s;
+}
 .av1_container span:nth-child(5){
-    animation-delay: 0.5s;
+    animation-delay: 1s;
 }
 .av1_container span:nth-child(6){
-    animation-delay: 0.6s;
+    animation-delay: 1.2s;
 }
 /* --------------------------------------- */
 
@@ -154,13 +154,13 @@
 }
 
 .av1_container span:nth-child(8){
-    animation-delay: 0.7s;
+    animation-delay: 1.4s;
 }
 .av1_container span:nth-child(9){
-    animation-delay: 0.8s;
+    animation-delay: 1.6s;
 }
 .av1_container span:nth-child(10){
-    animation-delay: 0.9s;
+    animation-delay: 1.8s;
 }
 /* --------------------------------- */
 
@@ -169,37 +169,37 @@
 }
 
 .av1_container span:nth-child(12){
-    animation-delay: 1s;
+    animation-delay: 2s;
 }
 .av1_container span:nth-child(13){
-    animation-delay: 1.1s;
+    animation-delay: 2.2s;
 }
 .av1_container span:nth-child(14){
-    animation-delay: 1.2s;
+    animation-delay: 2.4s;
 }
 .av1_container span:nth-child(15){
-    animation-delay: 1.3s;
+    animation-delay: 2.6s;
 }
 .av1_container span:nth-child(16){
-    animation-delay: 1.4s;
+    animation-delay: 2.8s;
 }
 .av1_container span:nth-child(17){
-    animation-delay: 1.5s;
+    animation-delay: 3s;
 }
 .av1_container span:nth-child(18){
-    animation-delay: 1.6s;
+    animation-delay: 3.2s;
 }
 .av1_container span:nth-child(19){
-    animation-delay: 1.7s;
+    animation-delay: 3.4s;
 }
 .av1_container span:nth-child(20){
-    animation-delay: 1.8s;
+    animation-delay: 3.6s;
 }
 .av1_container span:nth-child(21){
-    animation-delay: 1.9s;
+    animation-delay: 3.8s;
 }
 .av1_container span:nth-child(22){
-    animation-delay: 2s;
+    animation-delay: 4s;
 }
 
 
@@ -210,7 +210,7 @@
     opacity: 0;
 
     animation: blur 1s forwards ease-in-out;
-    animation-delay: 1s;
+    animation-delay: 4.3s;
 
 }
 
@@ -228,7 +228,7 @@
     transform: translateY(50px);
     opacity: 0;
     animation: move 1s forwards ease-out;
-    animation-delay: 1s;
+    animation-delay: 4.3s;
     transition: all .3s ease-in-out;
 }
 
